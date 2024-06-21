@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/topicTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/topic"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/provinceSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_province_prompt"
+        android:background="@android:color/white"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="16dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/districtsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"/>
+
+</LinearLayout>

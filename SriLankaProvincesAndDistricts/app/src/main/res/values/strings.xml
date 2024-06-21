@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SriLankaProvincesAndDistricts</string>
+    <string name="select_province_prompt">Select Province</string>
+    <string name="topic">Sri Lanka Provinces and Districts</string>
+</resources>
